@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* nav start */
+
+nav {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav > h2 {
+  margin: 1rem;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 1rem;
+}
+
+li {
+  margin: 0.5rem;
+  background-color: crimson;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* nav ends */
+/* main-start */
+
+main {
+  height: 93vh;
+  width: 100%;
+  background: url("https://images.unsplash.com/photo-1558748066-ac064bc32e3f?q=80&w=1619&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-container {
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.448);
+  padding: 2rem;
+  border-radius: 2rem;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.container > p > span {
+  background-color: red;
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+/* main-end */
+/* cards-start */
+
+.card-section {
+  height: 70vh;
+  width: 100%;
+}
+
+.cards {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  margin: 2rem;
+}
+
+.card > h4 {
+  margin: 1rem;
+}
+
+.img-container {
+  width: 100%;
+  height: 40vh;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}  
+/* main-end */
+
+/* footer-start */
+
+article {
+  background-color: grey;
+  color: white;
+  height: 50vh;
+  width: 100%;
+}
+
+.form-article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.form-article form {
+  background-color: crimson;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-article > form > input {
+  margin: 0.1rem;
+}
+
+form > button {
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+  border: none;
+}
